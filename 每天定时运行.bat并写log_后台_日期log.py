@@ -19,7 +19,7 @@ def run_bat_file():
 
             # 执行批处理文件，并将输出和错误重定向到日志文件
             result = subprocess.run(
-                [r"C:\myszdqd\MihoyoBBSTools-master\&python main_multi.py autorun.bat"],
+                [r"C:your.bat"],
                 shell=True,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
