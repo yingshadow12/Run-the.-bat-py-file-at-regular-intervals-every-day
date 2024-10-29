@@ -2,7 +2,7 @@ import time
 import subprocess
 
 def run_bat_file():
-    subprocess.run([r"C:\myszdqd\MihoyoBBSTools-master\0.bat"], shell=True)
+    subprocess.run([r"C:\your bat.bat"], shell=True)
     time.sleep(2)  # 因为以秒定时，所以暂停2秒，使之不会在1秒内执行多次
 
 while True:
